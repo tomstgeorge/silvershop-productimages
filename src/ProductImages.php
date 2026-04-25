@@ -8,7 +8,7 @@ use SilverShop\Page\Product;
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Assets\Image;
 use SilverStripe\Forms\LiteralField;
-use SilverStripe\ORM\ArrayList;
+use SilverStripe\Model\List\ArrayList;
 use SilverStripe\ORM\DataList;
 use Bummzack\SortableFile\Forms\SortableUploadField;
 
