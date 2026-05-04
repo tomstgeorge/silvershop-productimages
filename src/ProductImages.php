@@ -56,6 +56,7 @@ class ProductImages extends Extension
 
     /**
      * Combines the main image and the secondary images
+     * @return ArrayList<Image>
      */
     public function getAllImages(): ArrayList
     {
@@ -72,6 +73,7 @@ class ProductImages extends Extension
 
     /**
      * Sorted images
+     * @return DataList<Image>
      */
     public function getSortedAdditionalImages(): DataList
     {
